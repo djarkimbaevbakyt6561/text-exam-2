@@ -1,0 +1,39 @@
+p {
+  margin: 0;
+}
+.card_item_container {
+  list-style: none;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 320px;
+  border-radius: 7px;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.1);
+}
+.card_item_container:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+.card_item_container > div {
+  width: 100%;
+}
+.card_item_username {
+  font-weight: 600;
+  font-size: 20px;
+}
+.card_item_email {
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.address_container {
+  width: 100%;
+  text-align: left;
+}
